@@ -4,15 +4,15 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class AppConfig {
+public class AppConfigManual {
 
     @Bean
-    public Foo foo() {
-        return new Foo();
+    public FooObject foo() {
+        return new FooObject();
     }
 
     @Bean
-    public Bar bar() {
-        return new Bar();
+    public BarObject bar() {
+        return new BarObject();
     }
 }
