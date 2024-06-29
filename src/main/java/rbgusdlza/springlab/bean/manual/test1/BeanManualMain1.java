@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class BeanManualMain1 {
 
     public static void main(String[] args) {
-        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfigManual.class);
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfigManual1.class);
 
         //빈 이름과 타입으로 조회
         //빈 이름은 기본적으로 메서드 이름으로 설정

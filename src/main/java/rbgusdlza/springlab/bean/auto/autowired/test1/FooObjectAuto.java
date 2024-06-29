@@ -1,4 +1,4 @@
-package rbgusdlza.springlab.bean.auto.autowired;
+package rbgusdlza.springlab.bean.auto.autowired.test1;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

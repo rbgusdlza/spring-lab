@@ -1,4 +1,4 @@
-package rbgusdlza.springlab.bean.auto.autowired;
+package rbgusdlza.springlab.bean.auto.autowired.test1;
 
 import org.springframework.context.annotation.ComponentScan;
 
@@ -6,5 +6,5 @@ import org.springframework.context.annotation.ComponentScan;
  * 현재 패키지를 포함한 하위 패키지까지만 탐색
  */
 @ComponentScan
-public class AppConfigAuto {
+public class AppConfigAuto1 {
 }

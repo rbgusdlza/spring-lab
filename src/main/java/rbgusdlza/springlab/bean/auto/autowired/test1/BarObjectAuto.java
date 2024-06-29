@@ -1,4 +1,4 @@
-package rbgusdlza.springlab.bean.auto.autowired;
+package rbgusdlza.springlab.bean.auto.autowired.test1;
 
 import org.springframework.stereotype.Component;
 

@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class AppConfigManual {
+public class AppConfigManual1 {
 
     @Bean
     public FooObject foo() {
