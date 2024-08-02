@@ -1,15 +1,15 @@
-package rbgusdlza.springlab.bean.manual.test1;
+package rbgusdlza.springlab.bean.manual.test2;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class BeanManualMain1 {
+public class BeanManualMain2 {
 
     public static void main(String[] args) {
-        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfigManual1.class);
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfigManual2.class);
 
         //빈 이름과 타입으로 조회
-        //빈 이름은 기본적으로 메서드 이름으로 설정
+        //수동 등록시, 빈 이름은 기본적으로 메서드 이름으로 설정
         FooObject foo = ac.getBean("foo", FooObject.class);
         BarObject bar = ac.getBean("bar", BarObject.class);
 
