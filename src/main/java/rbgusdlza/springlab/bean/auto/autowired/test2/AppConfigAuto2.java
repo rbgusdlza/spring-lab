@@ -7,6 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 public class AppConfigAuto2 {
 
+    // 같은 클래스지만 서로 다른 두 빈 생성
+
     @Bean
     public ObjectMapper fooObject() {
         return new ObjectMapper();

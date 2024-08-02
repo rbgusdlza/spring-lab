@@ -1,14 +1,13 @@
 package rbgusdlza.springlab.bean.auto.autowired.test1;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
 public class FooObjectAuto {
 
-    @Autowired
+    // @RequiredArgsConstructor 가 생성자 생성 -> 생성자가 하나일 때, 스프링이 @Autowired 자동 설정
     private final BarObjectAuto bar;
 
     public void hello() {
