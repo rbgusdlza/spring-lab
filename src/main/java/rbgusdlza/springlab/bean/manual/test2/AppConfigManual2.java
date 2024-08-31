@@ -5,19 +5,20 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfigManual2 {
-
+    // 빈 의존 관계 설정, 런타임에 적용됨
     @Bean
     public FooObject foo() {
-        return new FooObject(dog());
+        return new FooObject(animal());
     }
 
     @Bean
     public BarObject bar() {
-        return new BarObject(dog());
+        return new BarObject(animal());
     }
 
     @Bean
-    public Dog dog() {
+    public Animal animal() {
+        //구현 클래스 설정
         return new Dog();
     }
 }

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class FooObjectAuto {
 
     // @RequiredArgsConstructor 가 생성자 생성 -> 생성자가 하나일 때, 스프링이 @Autowired 자동 설정
+    // 의존 관계 자동 주입
     private final BarObjectAuto bar;
 
     public void hello() {

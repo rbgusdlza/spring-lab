@@ -10,6 +10,7 @@ public class BeanManualMain2 {
 
         //빈 이름과 타입으로 조회
         //수동 등록시, 빈 이름은 기본적으로 메서드 이름으로 설정
+        //의존 관계도 수동으로 주입
         FooObject foo = ac.getBean("foo", FooObject.class);
         BarObject bar = ac.getBean("bar", BarObject.class);
 
